@@ -10,7 +10,7 @@
 
 mkdir ~/tools/
 cd ~/tools/
-apt install -y amass chromium hashcat
+apt install -y amass chromium hashcat truefflehog
 
 
 # Install Findomains
