@@ -10,13 +10,13 @@
 
 mkdir ~/tools/
 cd ~/tools/
-apt install -y amass, chromium, hashcat.
+apt install -y amass, chromium, hashcat
 
 
 # Install Findomains
 wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
 unzip findomain-linux
-chmox +x findomain-linux
+chmox +x findomain
 
 # Install Wraith
 git clone https://github.com/N0MoreSecr3ts/wraith
