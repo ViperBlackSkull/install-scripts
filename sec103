@@ -16,7 +16,7 @@ apt install -y amass chromium hashcat
 # Install Findomains
 wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
 unzip findomain-linux
-chmox +x findomain
+chmod +x findomain
 
 # Install Wraith
 git clone https://github.com/N0MoreSecr3ts/wraith
@@ -26,3 +26,6 @@ wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_
 unzip aquatone_linux_amd64_1.7.0.zip
 sudo cp aquatone /usr/bin/
 
+#./findomain --target hackfest.ca --output
+#amass enum -d hackfest.ca -o amasshf
+#cat amasshf hackfest.ca | aquatone --ports xlarge
