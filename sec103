@@ -1,0 +1,27 @@
+# Tools to install
+# trufflehog
+# wraith
+# findomains
+# amass
+# aquatone
+# chromium
+# hashcat
+# hashcat-rules
+
+mkdir ~/tools/
+cd ~/tools/
+apt install -y amass, chromium, hashcat.
+
+
+# Install Findomains
+wget https://github.com/Findomain/Findomain/releases/download/8.2.1/findomain-linux.zip
+unzip findomain-linux
+
+# Install Wraith
+git clone https://github.com/N0MoreSecr3ts/wraith
+
+# Install aquatone
+wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip
+unzip aquatone_linux_amd64_1.7.0.zip
+cp aquatone /usr/bin/
+
