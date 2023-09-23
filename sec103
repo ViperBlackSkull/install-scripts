@@ -11,7 +11,7 @@
 
 mkdir ~/tools/
 cd ~/tools/
-apt install -y amass chromium hashcat trufflehog unzip
+apt install -y amass chromium hashcat trufflehog unzip nuclei
 
 
 # Install Findomains
