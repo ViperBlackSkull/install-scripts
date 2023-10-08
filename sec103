@@ -31,6 +31,11 @@ wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_
 unzip aquatone_linux_amd64_1.7.0.zip
 sudo cp aquatone /usr/bin/
 
+# Installation des exercices
+cd ~/Downloads/
+wget https://github.com/ViperBlackSkull/install-scripts/raw/master/Exercices.7z
+7z e Exercices.7z
+
 #./findomain --target hackfest.ca --output
 #amass enum -d hackfest.ca -o amasshf
 #cat amasshf hackfest.ca | aquatone --ports xlarge
