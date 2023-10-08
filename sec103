@@ -11,7 +11,14 @@
 
 mkdir ~/tools/
 cd ~/tools/
-apt install -y amass chromium hashcat trufflehog unzip nuclei
+apt install -y amass chromium hashcat unzip nuclei golang
+
+
+# Install Trufflehog
+cd ~/tools/
+git clone https://github.com/trufflesecurity/trufflehog.git
+cd trufflehog; go install
+cp trufflehog /usr/bin/
 
 
 # Install Findomains
