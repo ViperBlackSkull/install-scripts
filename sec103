@@ -1,4 +1,4 @@
-# Slides : https://drive.google.com/file/d/10RRov8-SsGNCP0WMuJ54Cq1W9AB-8Q8q/view?usp=sharing
+# Slides : https://drive.google.com/file/d/1oRukL2fD6VF9Q3p4hHBq2avwp4rZtX7v/view?usp=drive_link
 # Tools to install
 # trufflehog
 # wraith
@@ -11,7 +11,7 @@
 
 mkdir ~/tools/
 cd ~/tools/
-apt install -y amass chromium hashcat unzip nuclei golang
+apt install -y amass chromium hashcat unzip nuclei golang 7z
 
 
 # Install Trufflehog
